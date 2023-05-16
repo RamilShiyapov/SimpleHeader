@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <link rel="stylesheet" href="css/Header.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <header class="Header">
+    <div class="HeaderContent">
+      <input type="checkbox" title="Мобильное меню" class="MobileMenuButton">
+      <div class="HeaderMenu">
+        <nav class="NavigationRow">
+          <ul class="ListRow">
+            <li class="ListRowItem">
+              <a href="#" class="HeaderLink HeaderLinkClicked">
+                <span class="HeaderLinkText">Игра</span>
+              </a>
+            </li>
+            <li class="ListRowItem">
+              <a href="#" class="HeaderLink">
+                <span class="HeaderLinkText">Новости</span>
+              </a>
+            </li>
+            <li class="ListRowItem">
+              <a href="#" class="HeaderLink">
+                <span class="HeaderLinkText">Галерея</span>
+              </a>
+            </li>
+            <li class="ListRowItem">
+              <a href="#" data-ToolTip="Часто задаваемые вопросы" class="HeaderLink">
+                <abbr class="HeaderLinkText">FAQ</abbr>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="NavigationRow">
+          <ul class="ListRow">
+            <li class="ListRowItem">
+              <button type="button" class="HeaderLink">
+                <span class="HeaderLinkText">Войти</span>
+              </button>
+            </li>
+            <li class="ListRowItem">
+              <details class="DropDown">
+                <summary class="DropDownTop">
+                  <i class="ArrowIcon"></i>
+                  <span class="HeaderLinkText">Русский</span>
+                  <picture><img src="images/RussianFlagIcon.webp" alt="Русский" class="LanguageFlagIcon"></picture>
+                </summary>
+                <div class="DropDownContent">
+                  <nav class="NavigationColumn">
+                    <ul class="ListColumn">
+                      <li class="ListRowItem">
+                        <a href="#" class="HeaderLink">
+                          <span class="HeaderLinkText">Українська</span>
+                          <picture><img src="images/UkraineFlagIcon.webp" alt="Українська" class="LanguageFlagIcon"></picture>
+                        </a>
+                      </li>
+                      <li class="ListRowItem">
+                        <a href="#" class="HeaderLink">
+                          <span class="HeaderLinkText">English</span>
+                          <picture><img src="images/EnglishFlagIcon.webp" alt="English" class="LanguageFlagIcon"></picture>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </details>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <script src="js/app.js"></script>
+</body>
+</html>

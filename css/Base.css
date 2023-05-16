@@ -1,0 +1,67 @@
+@import url("Common.css");
+
+html, 
+body {
+  background-color: rgb(27, 27, 27);
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  scroll-behavior: smooth;
+  font-family: system-ui;
+  font-weight: 500;
+}
+
+.ToolTip {
+  background-color: rgb(92, 98, 106);
+  position: fixed;
+  z-index: 3;
+  padding: 0px 8px;
+  border-radius: 2px;
+  transition: unset;
+}
+
+.ToolTipText {
+  color: white;
+  white-space: nowrap;
+  font: normal 0.8rem system-ui;
+}
+
+.NavigationRow {
+  display: flex;
+}
+
+.NavigationColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.ListRow {
+  display: flex;
+  align-items: center;
+}
+
+.ListRowItem {
+  display: flex;
+}
+
+.ListColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.ListColumnItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.Main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
