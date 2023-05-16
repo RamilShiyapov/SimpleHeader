@@ -23,14 +23,6 @@
   justify-content: center;
 }
 
-.HeaderContent::before {
-  content: "";
-  background: url("../images/GvarLogo.svg") no-repeat;
-  width: 40px;
-  height: 45px;
-  display: flex;
-}
-
 .MobileMenuButton {
   /* background: linear-gradient(
     to bottom,
