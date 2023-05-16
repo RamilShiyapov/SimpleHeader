@@ -84,7 +84,7 @@
 
 .MobileMenuButton:checked {
   /* background: unset; */
-  transform: translate(0px, -15px);
+  transform: translate(0px, -10px);
 }
 
 .MobileMenuButton:checked::before {
@@ -258,7 +258,7 @@
   }
 
   .HeaderContent::before {
-    width: 35px;
+    width: 28px;
     height: 35px;
   }
 
@@ -269,11 +269,11 @@
   .HeaderMenu {
     background-color: rgb(27 27 27 / 80%);
     width: 100%;
-    height: auto;
+    height: 100%;
     min-height: 100%;
     overflow: auto;
-    position: absolute;
-    top: -200%;
+    position: fixed;
+    top: -100%;
     left: 0px;
     align-items: unset;
     justify-content: unset;
@@ -336,5 +336,11 @@
     min-height: 50px;
     padding: unset;
     border-bottom: 1px solid rgb(53, 53, 53);
+  }
+}
+
+@media (max-height: 400px) {
+  .HeaderMenu {
+    position: absolute;
   }
 }
